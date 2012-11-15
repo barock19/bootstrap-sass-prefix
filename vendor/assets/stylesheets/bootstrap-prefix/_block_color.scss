@@ -1,0 +1,15 @@
+.tw {
+	.block-danger {
+	  @include gradientBar(#ee5f5b, #c43c35);
+	}
+	// Success (green)
+	.block-success {
+	  @include gradientBar(#62c462, #57a957);
+	}
+	.block-info {
+	  @include gradientBar(#5bc0de, #339bb9);
+	}
+	.block-warning {
+	  @include gradientBar(lighten($orange, 15%), $orange);
+	}
+}
